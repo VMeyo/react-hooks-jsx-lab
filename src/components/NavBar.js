@@ -3,8 +3,8 @@ import React from "react";
 function NavBar() {
   // update the JSX being returned!
   return <nav>NavBar
-    <a id = "home"> Home</a>
-    <a id = "about">About </a>
+    <a href = "#home"> Home</a>
+    <a href = "#about">About </a>
   </nav>;
 }
 
